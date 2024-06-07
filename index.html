@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+ 
+ 
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <title>Responsive Resturant Website in HTML an CSS</title>
+</head>
+<body>
+    
+<!-- ---------Header start--------- -->
+<header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><img src="./imgs/logo.png" alt=""></a>
+            </div>
+            <nav>
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                 </div>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menus</a></li>
+                <li><a href="#Reservation">Reservation</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#maps">Find Us</a></li>
+            </nav>
+            <div class="btn">
+               <i class="fas fa-bars menu-btn"></i>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ---------Header close--------- -->
+ 
+<!-- ---------Showcase start--------- -->
+<main id="showcase">
+    <div class="container">
+        <div class="content">
+            <img src="./imgs/logo.png" alt="">
+            <h2>Authenic Italian.</h2>
+            <h3>For the love of delicious food</h3>
+        </div>
+    </div>
+</main>
+<!-- ---------Showcase close--------- -->
+ 
+ 
+ 
+<!-- ---------Special offer start--------- -->
+<aside id="sp_offer">
+    <div class="container">
+        <div class="sp_content">
+            <div class="left_side_content">
+                <div class="headings">
+                    <h3>From The Menu</h3>
+                    <h2>SPECIAL OFFERS</h2>
+                </div>
+                <div class="imgs_content">
+                    <div class="imgs">
+                        <img src="./imgs/02.jpg" alt="">
+                        <div class="content_for_img">
+                            <h4>Spring Vegetable Pasta with Goat Cheese</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestine iste tempora maiores quis iure facilis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$10</p>
+                    </div>
+                </div>
+                <div class="imgs_content">
+                    <div class="imgs">
+                        <img src="./imgs/03.webp" alt="">
+                        <div class="content_for_img">
+                            <h4>Mushroom Carbonara</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestine iste tempora maiores quis iure facilis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$10</p>
+                    </div>
+                </div>
+                <div class="imgs_content">
+                    <div class="imgs">
+                        <img src="./imgs/04.jpg" alt="">
+                        <div class="content_for_img">
+                            <h4>Osso Buco</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestine iste tempora maiores quis iure facilis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <p>$10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right_side_content">
+                <div class="img_right_side">
+                    <img src="./imgs/right_sidebar_img.png" alt="">
+                    <div class="over_img">
+                        <a href=""><h2>Menus</h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+<!-- ---------Special offer close--------- -->
+ 
+ 
+ 
+ 
+ 
+ 
+<!-- ---------Reservation Now open--------- -->
+<div id="reservation_tbl">
+    <div class="container" id="Reservation">
+        <div class="form_data">
+            <h3 class="normal_heading">Your Table</h3>
+            <h2 class="main_heading">Reservation Now.</h2>
+            <form action="#">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Contact Number">
+                <input type="email" placeholder="Email Address">
+                <input type="text" placeholder="Number Of People">
+                <input type="date" placeholder="Book Date">
+                <input type="text" placeholder="Your Time">
+                <textarea
+                name=""
+                 id=""
+                 cols="10"
+                 rows="10"
+                 placeholder="Message Request"></textarea>
+                <button type="button" onclick="myFunction()">Book Now</button>
+            </form>
+        </div>
+    </div>
+</div>
+ 
+ 
+<!-- ---------Reservation Now close--------- -->
+ 
+<!-- ---------Deal Today start--------- -->
+<section id="deal_today">
+    <div class="swiper-container container swiper mySwiper">
+        <h3 class="normal_heading-1">Deal Today</h3>
+        <h2 class="main_heading-1">TODAY SPECIAL DISH</h2>
+        <div class="card_content swiper-wrapper">
+            <div class="cards swiper-slide">
+                <img src="./imgs/deal_today_01.png" alt="">
+                <h4>Orecchiette with Broccoli Rabe</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius nisi, quaerat dolor distinctio libero.
+                <p class="price"> Only $25</p>
+            </div>
+ 
+            <div class="cards swiper-slide">
+                <img src="./imgs/deal_today_02.png" alt="">
+                <h4>Lasagna Bolognese</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius nisi, quaerat dolor distinctio libero.
+                <p class="price"> Only $25</p>
+            </div>
+ 
+            <div class="cards swiper-slide">
+                <img src="./imgs/deal_today_03.png" alt="" >
+                <h4>Spaghetti Bolognese</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius nisi, quaerat dolor distinctio libero.
+                </p>
+                <p class="price"> Only $25</p>
+            </div>
+        </div>
+     <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- ---------Deal Today close--------- -->
+<section class="map_section" >
+    <h1 id="maps">Find Us</h1>
+    <iframe class="map_img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479.2908538512725!2d47.93443851052766!3d29.303142775202314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9a893321a965%3A0x4db8af8c5528aa7f!2sThe%20Avenues%20Mall!5e0!3m2!1sen!2suk!4v1717667952276!5m2!1sen!2suk" width="870"  height="600"></iframe>
+         
+</section>
+ 
+ 
+ 
+ 
+<!-- ---------Scarlette start--------- -->
+<section id="scarlette">
+    <div class="container" id="menu">
+        <h3 class="normal_heading-1">Scarlette</h3>
+        <h2 class="main_heading-1">RESTURANT MENU</h2>
+        <div class="scarlette_container">
+            <div class="btn_container">
+                <button type="button" class="btn-cat active_btn" data-id="all">
+                    All Dishes
+                </button>
+                <button type="button" class="btn-cat" data-id="Dinner">
+                    Dinner
+                </button>
+                <button type="button" class="btn-cat" data-id="Lunch">Lunch</button>
+                <button type="button" class="btn-cat" data-id="Drinks">
+                    Drinks
+                </button>
+                <button type="button" class="btn-cat" data-id="Starters">
+                    Starters
+                </button>
+            </div>
+            <div class="menus_items_container">
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_01.webp" alt="" >
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_02.jpg" alt="" >
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_03.avif" alt="">
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_04.jpg" alt="" >
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_05.jpg" alt="" >
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_06.webp" alt="">
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_07.jpg" alt="">
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_08.jpg" alt="">
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+                <div class="img_cards">
+                    <img src="./imgs/food_lover_09.jpg" alt="">
+                    <p class="price">Only On 25 Dollars</p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ---------Scarlette close--------- -->
+ 
+ 
+ 
+<!-- ---------Customer Feedback start--------- -->   
+<section id="customer_feedback">
+    <div class="container" id="review">
+        <h3 class="normal_heading-1">Scarlette</h3>
+        <h2 class="main_heading-1">CUSTOMER FEEDBACK</h2>
+        <div class="customer_cards_container">
+          <div class="customer_card">
+            <img src="./imgs/customer_01.jpg" alt="" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam laborum ipsa provident officiis aliquid obcaecati nisi est? Deleniti, eligendi!
+            </p>
+            <p class="name">Anna Van</p>
+          </div>
+          <div class="customer_card">
+            <img src="./imgs/customer_02.jpg" alt="" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam laborum ipsa provident officiis aliquid obcaecati nisi est? Deleniti, eligendi!
+            </p>
+            <p class="name">Williams</p>
+          </div>
+          <div class="customer_card">
+            <img src="./imgs/customer_03.jpg" alt="" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aliquam laborum ipsa provident officiis aliquid obcaecati nisi est? Deleniti, eligendi!
+            </p>
+            <p class="name">Avici</p>
+          </div>
+        </div>
+    </div>
+ 
+</section>
+   <!-- ---------Customer Feedback close--------- -->  
+ 
+ 
+ 
+ 
+<!-- ---------Footer start--------- -->  
+ 
+<section id="footer">
+    <div class="container">
+        <div class="footer_container">
+            <div class="about_us">
+                <h2><img src="./imgs/logo.png" alt=""></h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo est magnam et earum possimus autem necessitatibus quisquam rem nulla.
+                </p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="opening_hours">
+                <h2>Opening Hours</h2>
+                <p class="day">MONDAY: <span> Close</span></p>
+                <p class="day">TUE-FRI: <span>---------10.00 AM 10.00 PM</span></p>
+                <p class="day">SATURDAY: <span>---------10.00 AM 12.00 PM</span></p>
+                <p class="day">SUNDAY: <span>---------10.00 AM 6.00 PM</span></p>
+            </div>
+            <div class="contact_us">
+                <h2>Contact Us</h2>
+                <h3>GET IN TOUCH</h3>
+                <p>+44 811078500</p>
+                <p class="add">Address</p>
+                <p>8W3P+7R Shuwaikh Industrial, The Avenues Mall, Kuwait</p>
+                <p class="email">Email</p>
+                <p>scarlette@foodlover.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- ---------Footer close--------- -->  
+ 
+<footer>
+    <div class="container">
+        <p>
+            Copyright 2024 &copy; Scarlette Resturant
+        </p>
+    </div>
+</footer>
+ 
+ 
+ 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+ 
